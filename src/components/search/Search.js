@@ -1,6 +1,3 @@
-
-
-
 import React from 'react'
 import './SearchStyles.css'
 
@@ -8,7 +5,7 @@ import Itinerary from '../../assets/itinerary.png'
 
 function Search() {
     return (
-        <div name='book' className='search'>
+        <div name='book' id='search' className='search'>
             <div className="container">
                 <div className="left">
                 <h2> TRAVEL ITINERARIES</h2>

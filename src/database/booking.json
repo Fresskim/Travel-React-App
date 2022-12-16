@@ -1,0 +1,11 @@
+{
+    "booking": [{
+        "name": "bmw",
+        "email": "dsl",
+        "phone": "123456",
+        "checkIn": "08/12/2022",
+        "checkOut": "30/12/2022"
+      }
+
+    ]
+  }

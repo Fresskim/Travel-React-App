@@ -1,12 +1,13 @@
 import React, {useState} from 'react'
+
 import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
 
-import { Link  } from 'react-scroll'
 
+import { Link } from "react-router-dom";
 
 import './NavbarStyles.css'
 
@@ -21,11 +22,11 @@ function Navbar() {
         <h2>FTB</h2>
       </div>
     <ul className="nav-menu">
-      <Link to='home'> <li>Home</li></Link>
-      <Link to='destinations'> <li>Destinations</li></Link>
-      <Link to='search'> <li>Travel Itineraries</li></Link>
-        <li>Book</li>
-        <li>Views</li>
+      <a href='/'> <li>Home</li></a>
+      <a href='#destinations'> <li>Destinations</li></a>
+      <a href='#search'> <li>Travel Itineraries</li></a>
+      <Link to='/booking'><li>Booking</li></Link>
+      <Link to='views'><li>Views</li></Link>
     </ul>
     <div className="nav-icons">
         <BiSearch className='icon' style={{marginRight: '1rem'}} />

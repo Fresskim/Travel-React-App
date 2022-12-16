@@ -9,7 +9,7 @@ import Rome from '../../assets/rome.jpg'
 
 function Destinations() {
   return (
-    <div className='destinations'>
+    <div id='destinations' className='destinations'>
         <div name='destinations' className="container">
             <h1>Top Places I Have Visited</h1>
             <p>All around the world</p>
