@@ -1,0 +1,75 @@
+
+
+.nav-black .navbar {
+    color: black;
+
+}
+
+.form-container {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #5651e5;
+    margin: 0 2rem;
+    top: 150px;
+    padding: 1rem 2rem;
+    
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+  }
+  
+  
+  .form-container input {
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+  }
+
+  
+
+
+
+.active-bookings button {
+    max-width: 310px;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(45deg, #bc2525, #ff0000);
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+
+    
+}
+
+.active-bookings {
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 200px;
+    bottom: 0;
+
+    border: 2px solid #5651e5;
+    margin: 1rem 2rem;
+    padding: 1rem 2rem;
+    
+    
+}
+
+.no-bookings {
+    padding: 1rem 2rem;
+    position: relative;
+    top: 175px;
+}
+
+ .footer2 {
+    margin-top:calc(10% + 60px);
+
+
+}

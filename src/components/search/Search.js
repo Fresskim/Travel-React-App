@@ -1,5 +1,7 @@
 import React from 'react'
 import './SearchStyles.css'
+import { Link } from 'react-router-dom';
+
 
 import Itinerary from '../../assets/itinerary.png'
 
@@ -33,7 +35,9 @@ function Search() {
                     <div className="promo">
                     <h4 className='save'>GET UP TO 15%  OFF! </h4>
                     <p className='timer'>WHEN USING MY COUPON CODE</p>
+                    <Link to="/booking">
                     <p className='offers'>VIEW ALL CURRENT OFFERS</p>
+                    </Link>
                     </div>
                     <form>
                         <div className="input-wrap">
@@ -59,7 +63,9 @@ function Search() {
                                 <input type="date" />
                             </div>
                         </div>
-                        <button>Rates & Availabilities </button>
+                        <Link to="/booking">
+                     <button>View Rates & Availability</button>
+                    </Link>
                     </form>
                 </div>
             </div>
